@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace LaddaQ\LaddaQ\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaddaQCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laddaq-laravel';
 
     public $description = 'My command';
 

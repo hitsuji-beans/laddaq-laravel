@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace LaddaQ\LaddaQ;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use LaddaQ\LaddaQ\Commands\LaddaQCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class LaddaQServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('laddaq-laravel')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_laddaq-laravel_table')
+            ->hasCommand(LaddaQCommand::class);
     }
 }

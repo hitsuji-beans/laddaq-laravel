@@ -1,5 +1,5 @@
 <?php
 
-use VendorName\Skeleton\Tests\TestCase;
+use LaddaQ\LaddaQ\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);
